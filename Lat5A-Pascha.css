@@ -1,0 +1,74 @@
+body {
+    font-family: Georgia;
+    background-color: #777;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0 20px 0 0;
+}
+
+#page-wrap {
+    width: 700px;
+    margin: 0 auto;
+    padding: 0;
+    margin: 50px auto 0px auto;
+    background-color: white;
+}
+
+.p1 {
+    margin-bottom: 20px;
+}
+
+.p2 {
+    margin-bottom: 200px;
+}
+
+#content {
+    width: 460px;
+    margin-right: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #333;
+    height: 500px;
+    float: right;
+    z-index: 3;
+}
+
+#sidebar {
+    width: 180px;
+    float: right;
+}
+
+#footer {
+    text-align: center;
+    background-color: #333;
+    font-family: Verdana;
+    color: white;
+    width: 700px;
+    height: 40px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.kotakdiv {
+    display: flex;
+}
+
+.po-kiri{
+position: absolute  ;
+z-index: -1;
+bottom: 50px;
+left: 850px;
+}
+
+.po-kanan{
+    position: absolute  ;
+    z-index: 2;
+    bottom: 50px;
+    right: 870px;
+}
